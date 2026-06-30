@@ -1,17 +1,42 @@
-# python_final_ucl_and_wc_data_app
+# what you can do in the app
+- view UEFA Champions League statistics from 1992–2025
+- view FIFA World Cup statistics
+- see the winner, top scorer, top assistent, and best coach for each tournament
+- add new records to the database
+- update existing records
+- delete records
+- browse all stored statistics
+- switch between the Champions League and World Cup databases
+- enjoy separate background music for the main menu and the Champions League page
+- mute or unmute the music at any time
 
-პროექტზე მუშაობდნენ ნიკა ყურაშვილი და გიორგი მასურაშვილი(მათ წვლილს შემდეგ დავწერ)
+# application windows
+- **Main Menu**
+  - background music is played
+  - switch between available songs
+  - mute or unmute the music
+  - open the UEFA Champions League page
+  - open the FIFA World Cup page
+  - exit the application
+- **UEFA Champions League Window**
+  - displays Champions League statistics
+  - allows full CRUD operations (Create, Read, Update, Delete)
+  - has its own dedicated Champions League theme song
+  - return to the main menu at any time
+- **FIFA World Cup Window**
+  - displays World Cup statistics
+  - allows full CRUD operations (Create, Read, Update, Delete)
+  - return to the main menu at any time
 
-ეს არის აპი 2 ყველაზე დიდი საფეხბურთო ტურნირის სტატისტიკის შესახებ, კერძოდ მოცემულია 1992-2025 ჩემპიონთა ლიგის სტატისტიკა(გამარჯვებული, საუკეთესო 
-ბომბარდირ, საუკეთესო ასისტენტი და მწვრთნელი) ზუსტად იგივე სტატისტიკა არის მსოფლიო ჩემპიონატზე(2 ივე მონაცემთა ბაზაზე შეიძლება 4 ძირითადი მოქმედების 
-შესრულება(მონაცემთა ნახვა, წაშლა, განახლება და დამატება)).
+# Modules Used
+- PyQt5
+- sqlite3
+- os
+- sys
 
-აქვს 3 ფანჯარა: მთავარი მენიუ სადაც გაშვებულია მუსიკა, როლის დამიუთება და სხვა სიმღერით შეცვლა არის შესაძლებელი, გამოსვლის ღილაკით გამოვდივართ აპიდან, 
-ucl და wc ღილაკით კიდე შესაბამის ფანჯარაზე გადავდივართ,მეორე ფანჯარაა ჩემიონთა ლიგის ფანჯარა სადაც არის მოცემული სტატისტიკა, ჩასაწერი ველი და ღილაკები,
-იქ უკვე შესაძლებელია მონაცემთა ბაზაზე მანიპულაციის მოხდენა, უკან გამოსვლის ღილაკით კიდე უკან ვბრუნდებით, და ამ ფანჯარას აქვს თავისი UCL theme song 
-ცალკე განკუთვინილი, უკან დაბუნების შემდეგ ირთვება ის სიმღერა რომელიც ბოლოს იყო ჩართული. მე-3 ფანჯარა ზუსტად იგივეა რაც UCL ფანჯარა ფუნქციონალით უბრალოდ 
-განსხვავება ისაა რო ეს სტატისტიკა უკვე მსოფლიო ჩემპიონატზეა
-
-ნიკა ყურაშვილმა ააწყო qt designer-ში ui ფაილები და მერე ისინი გადააკონვერტირა .py ფაილებში, ანუ 3 სხვადასხვა ფანჯრისთვის შექმნა დიზაინი, აამუშავა 
-გადასხვლების ღილაკები, შექმნა დიზაინი და ამუუშავა მუსიკის გაშვება და შეცვლა, გიორგი მასურაშვილმა იმუშავა მონაცემთა ბაზებზე მათთან მუშაობაზე და მათ 
-მანიპულაციაზე.
+## How to Run
+```bash
+git clone https://github.com/Nikakurashvili/python_final_ucl_and_wc_data_app.git
+cd python_final_ucl_and_wc_data_app
+python main.py
+```

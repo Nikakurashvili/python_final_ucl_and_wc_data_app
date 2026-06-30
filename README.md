@@ -1,3 +1,6 @@
+# python_final_ucl_and_wc_data_app
+A PyQt5 desktop application for exploring and managing statistics from the two biggest football tournaments: the UEFA Champions League and the FIFA World Cup.
+
 # what you can do in the app
 - view UEFA Champions League statistics from 1992–2025
 - view FIFA World Cup statistics
